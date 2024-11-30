@@ -1,0 +1,44 @@
+.container{
+    height: 94vh;
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input{
+    height: 9vh;
+    width: 50%;
+    border: 1px solid black;
+    padding: 0 10px  ;
+    font-size: x-large;
+    margin: 20px auto;
+
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .button{
+    height: 7vh;
+    width: 20vh;
+    border: 1px solid black(40, 206, 206);
+    font-size: x-large;
+    background: green;
+  }
+
+  /* h1{
+    font-size: xx-large;
+    font-weight: bold;
+} */
+
+.container h1{
+  font-size:xx-large;
+  font-weight: bold;
+}
